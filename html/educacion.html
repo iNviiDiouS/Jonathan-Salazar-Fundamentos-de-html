@@ -271,6 +271,7 @@ wT6Q7Ov4wwNhhVT5NQQA4nmecnJy6MCBA/Tjjz/SpUuXqLy83KhpRIKwVCoVtW3blmJjY+mtt96i
       <li><a href="educacion.html">Educación</a></li>
       <li><a href="html/experiencia.html">Experiencia</a></li>
     </ul>
+<section>
 
       <table border="1" cellpadding="10" cellspacing="0">
         <thead>
@@ -298,9 +299,9 @@ wT6Q7Ov4wwNhhVT5NQQA4nmecnJy6MCBA/Tjjz/SpUuXqLy83KhpRIKwVCoVtW3blmJjY+mtt96i
       </table>
         <form>
           <h2>Agregar Estudios</h2>
-
-          <label for="año"><strong>Año:</strong></label>
-            <select name="año">
+          <p>
+          <label for="recommend"><strong>Año:</strong></label>
+            <select name="recommend">
               <option value="1">2008</option>
               <option value="1">2009</option>
               <option value="1">2010</option>
@@ -313,9 +314,28 @@ wT6Q7Ov4wwNhhVT5NQQA4nmecnJy6MCBA/Tjjz/SpUuXqLy83KhpRIKwVCoVtW3blmJjY+mtt96i
               <option value="1">2017</option>
 
             </select>
+          </p>
+          <p>
 
+          <label for="institution"><strong>Institución:</strong></label>
+                  <input type="text" name="institution" placeholder="Ej:Universidad de Quito" required>
+
+          </p>
+          <p>
+
+          <label for="place"><strong>Lugar:</strong></label>
+                  <textarea name="place" id="" rows="3" cols="30"></textarea>
+          </p>
+          <p>
+          <label for="option"><strong>¿Culminó?:</strong></label>
+                  <input type="radio" name="option"> Si
+                  <input type="radio" name="option"> No
+          </p>
+          <p>
+            <input type="submit" value="Enviar">
+          </p>
 
         </form>
-
+</section>
   </body>
 </html>
